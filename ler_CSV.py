@@ -2,7 +2,7 @@ import csv, sys
 filename = 'csv_sample.csv'
 titles = []
 years = []
-
+  
 with open(filename, 'r') as f:
     reader = csv.reader(f)
     next(reader)  # remove header
@@ -24,7 +24,7 @@ coldex = years.index(whatMovie)
 theMovie = titles[coldex]
 print('The date of',whatMovie,'is:',theMovie)
 
-########## Readin as a Dictionary:
+########## Read as a Dictionary:
 print ("\n##################### Records as a Dictionary:\n")
 with open("csv_sample.csv") as f:
     reader2 = csv.DictReader(f)
