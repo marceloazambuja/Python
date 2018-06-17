@@ -32,7 +32,7 @@ class FreeSoftware(Software):
 
     def software_type(self):
         return 'Free Software'
-
+ 
 
 ################################################ 
 with open('json_distros.json', 'r') as f:
