@@ -9,9 +9,6 @@ print("##########################")
 print (textoNovoArquivo)
 
 manipulador.close()
-
 fileWrite = open('Text2.txt',"w")
-
 fileWrite.write(textoNovoArquivo)
-
 fileWrite.close()
