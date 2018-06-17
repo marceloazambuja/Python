@@ -14,6 +14,5 @@ while x < len(L):
         iCountSequence+=1
     x+=1
     
-
 print("\n##### Tamanho da L_eachChar: %d\n\n" % len(L))
 print("\n##### Count Sequence of 'te': %d\n\n" % iCountSequence)
