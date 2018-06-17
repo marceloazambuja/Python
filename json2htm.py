@@ -9,7 +9,7 @@ jSonTable = world_cup[0].to_json(orient="records", date_format="iso")  # to Json
 
 print(json2html.convert(json = jSonTable))  # JSon to HTML
 htmlTable = json2html.convert(json = jSonTable)
-
+ 
 fileWrite = open('worldcup.html',"w")       # write HTML file
 fileWrite.write(htmlTable)
 fileWrite.close()
