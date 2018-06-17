@@ -8,7 +8,7 @@ for distro in distros_dict:
     print(distro['Name'])
     if (distro['Name']=='Fedora'):
         iCount+=1
-
+  
 print("\n\n##### iCount = %d\n" % iCount)
 
 print("\nFull Dictionary: ", distros_dict)
