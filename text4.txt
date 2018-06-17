@@ -1,0 +1,4 @@
+teste de linha 1
+teste2r
+teste linha 3
+total de cha6r neste arquivo = 71 
